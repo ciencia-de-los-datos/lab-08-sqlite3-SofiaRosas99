@@ -38,3 +38,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+select * from tbl2 where C21 = (select MIN(C21) from tbl2);

@@ -38,3 +38,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+select COUNT(*) from tbl1 where STRFTIME('%Y',C14) = '2018';

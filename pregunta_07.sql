@@ -43,3 +43,4 @@
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+select * from tbl1 where K0 <>'A' and K0 <>'B' and C13 != 200 and C13 != 900 order by C14;
